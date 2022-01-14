@@ -1,0 +1,14 @@
+.particle-effect{
+  overflow: hidden;
+  height: 100vh;
+  background: #000;
+}
+.block{
+  height: 100vh;
+}
+span{
+  position: absolute;
+  pointer-events: none;
+  background: #fff;
+  animation: animate 5s linear infinite;
+}

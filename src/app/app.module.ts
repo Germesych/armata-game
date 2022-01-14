@@ -19,6 +19,8 @@ import { BlockFourComponent } from './pages/page-index/block-update/block-four.c
 import { PageHeaderComponent } from './components/page-header/page-header.component';
 import { PageArticleComponent } from './pages/page-article/page-article.component';
 import { VideoCubeComponent } from './widgets/video-cube/video-cube.component';
+import { WidgetParticleEffectComponent } from './widgets/widget-particle-effect/widget-particle-effect.component';
+import { WigetThreeDSliderComponent } from './widgets/widget-three-d-slider/wiget-three-d-slider.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +40,9 @@ import { VideoCubeComponent } from './widgets/video-cube/video-cube.component';
     BlockFourComponent,
     PageHeaderComponent,
     PageArticleComponent,
-    VideoCubeComponent
+    VideoCubeComponent,
+    WidgetParticleEffectComponent,
+    WigetThreeDSliderComponent
   ],
   imports: [
     BrowserModule,
