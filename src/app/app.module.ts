@@ -18,6 +18,7 @@ import { BlockThreeComponent } from './pages/page-index/block-news/block-three.c
 import { BlockFourComponent } from './pages/page-index/block-update/block-four.component';
 import { PageHeaderComponent } from './components/page-header/page-header.component';
 import { PageArticleComponent } from './pages/page-article/page-article.component';
+import { VideoCubeComponent } from './widgets/video-cube/video-cube.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { PageArticleComponent } from './pages/page-article/page-article.componen
     BlockThreeComponent,
     BlockFourComponent,
     PageHeaderComponent,
-    PageArticleComponent
+    PageArticleComponent,
+    VideoCubeComponent
   ],
   imports: [
     BrowserModule,
