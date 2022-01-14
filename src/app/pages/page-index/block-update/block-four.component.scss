@@ -1,0 +1,23 @@
+.block-four{
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+  min-height: 700px;
+  width: 100%;
+  padding: 70px;
+  .title{
+    margin-bottom: 20px;
+  }
+  .text{
+    background: rgba(0, 0, 0, 0.4);
+    padding: 30px 15px;
+    border-radius: 5px;
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    p{
+      margin-bottom: 15px;
+      line-height: 1.65;
+    }
+  }
+}
